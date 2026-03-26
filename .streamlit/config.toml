@@ -1,0 +1,20 @@
+[server]
+# 院内LANの全端末からアクセス可能にする
+address = "0.0.0.0"
+port = 8501
+headless = true
+# ファイル変更時の自動リロードを無効化（本番運用向け）
+runOnSave = false
+
+[browser]
+# ブラウザの自動起動を無効化
+serverAddress = "0.0.0.0"
+gatherUsageStats = false
+
+[theme]
+# アプリのテーマ設定
+primaryColor = "#2196F3"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f8f9fa"
+textColor = "#212529"
+font = "sans serif"
